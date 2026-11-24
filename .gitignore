@@ -1,0 +1,22 @@
+# ---- CLion / IDE ----
+.idea/
+*.iml
+cmake-build-*/
+
+# ---- 构建产物 ----
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+
+# ---- 备份文件 ----
+*.bak
+*.prev.bak
+
+# ---- 系统文件 ----
+Thumbs.db
+.DS_Store
+desktop.ini
